@@ -1,0 +1,51 @@
+# Ignore les dossiers générés par Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Ignore les fichiers système spécifiques à Unity
+[Dd]ebug/
+[Cc]rash/
+[Aa]ssets/AssetStoreTools*
+
+# Fichiers de cache spécifiques à Unity
+[Aa]ssets/Plugins/Editor/AssetStoreCache/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.DS_Store
+
+# Ignore les fichiers de configuration spécifiques aux plateformes
+.gradle/
+.idea/
+.vscode/
+*.apk
+*.keystore
+*.app
+
+# Ignore les fichiers spécifiques à la version du projet Unity
+UnityPackageManager/
+Packages/com.unity.package-manager-ui/
+*.pidb.meta
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers générés par les outils externes
+*.vs/
+.vs/
+ExportedObj/
